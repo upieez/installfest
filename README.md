@@ -38,23 +38,11 @@ node -v
 npm -v
 ```
 
-### 4. [PostgresSQL](https://www.postgresql.org/download/)
-Once installed you should see a little elphant icon on your menu bar
+### 4. [PostgresSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+We'll be using the interactive installer by EDB which includes the PostgreSQL server & pgAdmin; a graphical tool for managing and developing your databases.
 
-<img width="514" alt="Screenshot 2021-07-23 at 8 38 13 PM" src="https://user-images.githubusercontent.com/56812343/126782893-93a5038e-fa1b-4ad3-8ba8-690b9cd6608f.png">
+<img width="1081" alt="Screenshot 2021-07-24 at 10 54 35 AM" src="https://user-images.githubusercontent.com/56812343/126855522-2455d69d-102f-4453-b91a-9a9ec04494bd.png">
 
-And to verify type in the following command
-```bash
-which psql
-# outputs `/Applications/Postgres.app/Contents/Versions/latest/bin/psql`
-```
-
-### 5. [pgAdmin 4](https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v5.5/macos/pgadmin4-5.5.dmg)
-We will be using the latest version v5.5
-
-Once installed and opened, you'll be prompted to enter a password. Enter something memorable!
-
-<img width="1804" alt="Screenshot 2021-07-23 at 8 50 46 PM" src="https://user-images.githubusercontent.com/56812343/126783977-69ffb1b3-f8c0-4124-945c-9f0b241b3c94.png">
 
 ## Windows
 
