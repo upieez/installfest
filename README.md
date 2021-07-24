@@ -12,7 +12,7 @@
 ### 1. [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 This will also automatically install [Git](https://git-scm.com/) on your machine
 
-Run the following command to verify
+Run the following command in your terminal to verify
 ```bash
 git --version 
 ```
@@ -32,7 +32,7 @@ Download the LTS (long-term support) version
 
 <img width="257" alt="Screenshot 2021-07-23 at 8 55 55 PM" src="https://user-images.githubusercontent.com/56812343/126784598-685d21f2-1936-4dd2-b6f5-3c6755e2201a.png">
 
-To verify that you have successfully installed Node.js run the following
+To verify that you have successfully installed Node.js run the following in your terminal
 ```bash
 node -v
 npm -v
@@ -71,7 +71,7 @@ We'll be using the interactive installer by EDB which includes the PostgreSQL se
 
 <img width="982" alt="Screenshot 2021-07-24 at 10 08 02 AM" src="https://user-images.githubusercontent.com/56812343/126854572-075778e7-e0e5-49de-b359-cc31b4a0a450.png">
 
-To see verify if Node & npm is installed, open Windows Command Prompt or Powershell and type 
+To see verify if Node & npm is installed, open Git Bash and type in the following
 
 ```shell
 node -v
