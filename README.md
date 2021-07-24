@@ -43,6 +43,18 @@ We'll be using the interactive installer by EDB which includes the PostgreSQL se
 
 <img width="1081" alt="Screenshot 2021-07-24 at 10 54 35 AM" src="https://user-images.githubusercontent.com/56812343/126855522-2455d69d-102f-4453-b91a-9a9ec04494bd.png">
 
+To verify that PostgresSQL has been installed, run the following command in your terminal
+```bash
+psql
+# it should output the following:
+# psql (13.3)
+# Type "help" for help.
+```
+To exit psql, run
+```bash
+\q
+```
+
 
 ## Windows
 
@@ -66,6 +78,19 @@ Read more about it [here](https://gitforwindows.org/)
 We'll be using the interactive installer by EDB which includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases.
 
 <img width="909" alt="Screenshot 2021-07-24 at 10 02 08 AM" src="https://user-images.githubusercontent.com/56812343/126854485-4a2def77-cf90-435d-906f-be47f7da5c10.png">
+
+
+To verify that PostgresSQL has been installed, run the following command in your Git BASH
+```bash
+psql
+# it should output the following:
+# psql (13.3)
+# Type "help" for help.
+```
+To exit psql, run
+```bash
+\q
+```
 
 ### 3. [Node.js](https://nodejs.org/en/download/)
 
