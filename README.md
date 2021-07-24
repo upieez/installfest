@@ -1,4 +1,6 @@
-# Installfest 
+<p align="center">
+  <img width="351" height="281" src="https://techladies.co/illustrations/Illus_astronaut.png">
+</p>
 
 ## Prerequisite
 
@@ -54,9 +56,50 @@ Once installed and opened, you'll be prompted to enter a password. Enter somethi
 
 <img width="1804" alt="Screenshot 2021-07-23 at 8 50 46 PM" src="https://user-images.githubusercontent.com/56812343/126783977-69ffb1b3-f8c0-4124-945c-9f0b241b3c94.png">
 
-## Windows 
+## Windows
 
-A **64-bit** version of Windows 10 is necessary here as we will be using the Windows Subsystem for Linux (WSL) extensively. 
+### 1. [Git for Windows](https://github.com/git-for-windows/git/releases/tag/v2.32.0.windows.2)
+Git for Windows is a lightweight, native set of tools that brings [Git SCM](https://git-scm.com/) to Windows.
+
+Once installed it comes with 3 useful features
+- Git BASH
+- Git GUI
+- Shell Integration
+
+If you are using **32-bit**, click on `Git-2.32.0.2-32-bit.exe`(47.4MB) 
+
+If you are using **64-bit**, click on `Git-2.32.0.2-64-bit.exe`(47.6MB)
+
+<img width="979" alt="Screenshot 2021-07-24 at 10 20 46 AM" src="https://user-images.githubusercontent.com/56812343/126854847-3e0d3e3c-6ba0-4473-9f6b-83de0fc4f7a0.png">
+
+Read more about it [here](https://gitforwindows.org/)
+
+### 2. [PostgresSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+We'll be using the interactive installer by EDB which includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases.
+
+<img width="909" alt="Screenshot 2021-07-24 at 10 02 08 AM" src="https://user-images.githubusercontent.com/56812343/126854485-4a2def77-cf90-435d-906f-be47f7da5c10.png">
+
+### 3. [Node.js](https://nodejs.org/en/download/)
+
+<img width="982" alt="Screenshot 2021-07-24 at 10 08 02 AM" src="https://user-images.githubusercontent.com/56812343/126854572-075778e7-e0e5-49de-b359-cc31b4a0a450.png">
+
+To see verify if Node & npm is installed, open Windows Command Prompt or Powershell and type 
+
+```shell
+node -v
+# Prints version number v14.17.3.
+```
+```shell
+npm -v
+# Prints version number v6.14.13
+```
+
+<details>
+<summary><b>(ALTERNATIVE) Windows using WSL</b></summary>
+
+## Windows Subsystem for Linux
+
+A **64-bit** version of Windows 10 is necessary here if you want to use the Windows Subsystem for Linux (WSL). 
 
 You can check whether your version of Windows 10 is **64-bit** by going to `Settings -> System -> About` and looking under the `System type` field.
 
@@ -169,6 +212,8 @@ sudo /etc/init.d/postgresql restart
 ```
 
 *credit to [Akira's](https://github.com/awongh) [gitbook](https://wdi-sg.github.io/gitbook-2019/00-config-deployment/installfest/windows/readme.html) back when I was in GA for the resources*
+ 
+</details>
 
 ## Optional
 
