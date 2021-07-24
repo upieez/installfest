@@ -4,8 +4,11 @@
 
 ## Prerequisite
 
-- [Chrome](https://www.google.com/intl/en_sg/chrome/)
-- [Github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+### [Chrome](https://www.google.com/intl/en_sg/chrome/)
+The default web browser
+
+### [GitHub](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+Create an account with GitHub
 
 ## macOS 
 
@@ -55,11 +58,12 @@ To exit psql, run
 \q
 ```
 
-
 ## Windows
 
 ### 1. [Git for Windows](https://github.com/git-for-windows/git/releases/tag/v2.32.0.windows.2)
 Git for Windows is a lightweight, native set of tools that brings [Git SCM](https://git-scm.com/) to Windows.
+
+Read more about it [here](https://gitforwindows.org/)
 
 Once installed it comes with 3 useful features
 - Git BASH
@@ -72,21 +76,24 @@ If you are using **64-bit**, click on `Git-2.32.0.2-64-bit.exe`(47.6MB)
 
 <img width="979" alt="Screenshot 2021-07-24 at 10 20 46 AM" src="https://user-images.githubusercontent.com/56812343/126854847-3e0d3e3c-6ba0-4473-9f6b-83de0fc4f7a0.png">
 
-Read more about it [here](https://gitforwindows.org/)
+To verify the installation, go to `Start -> Git Bash` and run the following command
+```bash
+git --version
+```
 
 ### 2. [PostgresSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 We'll be using the interactive installer by EDB which includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases.
 
 <img width="909" alt="Screenshot 2021-07-24 at 10 02 08 AM" src="https://user-images.githubusercontent.com/56812343/126854485-4a2def77-cf90-435d-906f-be47f7da5c10.png">
 
-
-To verify that PostgresSQL has been installed, run the following command in your Git BASH
+To verify that PostgresSQL has been installed, run the following command in your Git Bash window
 ```bash
 psql
 # it should output the following:
 # psql (13.3)
 # Type "help" for help.
 ```
+
 To exit psql, run
 ```bash
 \q
@@ -96,14 +103,16 @@ To exit psql, run
 
 <img width="982" alt="Screenshot 2021-07-24 at 10 08 02 AM" src="https://user-images.githubusercontent.com/56812343/126854572-075778e7-e0e5-49de-b359-cc31b4a0a450.png">
 
-To see verify if Node & npm is installed, open Git Bash and type in the following
+> **Note:** you should first close and restart the Git Bash window so that the Node.js installation can take effect
+
+To see verify if Node.js & npm is installed, open a Git Bash window and type in the following
 
 ```shell
-node -v
+node --version
 # Prints version number v14.17.3.
 ```
 ```shell
-npm -v
+npm --version
 # Prints version number v6.14.13
 ```
 
